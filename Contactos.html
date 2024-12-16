@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contactos - BarberShop</title>
+    <link rel="stylesheet" href=".//Style-reset.css">
+    <link rel="stylesheet" href=".//Style-Temas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><img class="logo1" src=".//imagenes/logo1.jpg" alt="logo de Cyber-world"></h1>
+
+            <nav class="Caja">
+                <ul>
+                    <li><a href=".//index.html">Home</a></li>
+                    <li><a href=".//Productos.html">Productos</a></li>
+                    <li><a href=".//Contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" label class="input-padron" required placeholder="xxx xxx xxxx">
+
+            <label for="mensaje">Mensaje</label class="input-padron">
+            <textarea cols="70" rows="10"></textarea>
+
+            <fieldset>
+                <legend>¿Como le gustaria que lo contactemos?</legend>
+
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email"
+                        id="radio-email">Email</label>
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                        id="radio-telefono">Telefono</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsApp" id="radio-whatsapp"
+                        checked>WhatsApp</label>
+
+            </fieldset>
+
+
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades sobre la
+                Barberia?</label>
+
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Dia</td>
+                    <td>Horario</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>08:00-20:00</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <img src=".//imagenes/logo final.jpg">
+        <p class="copy">&copy; Copyright Dereck, Anderson y Kevin - 2024</p>
+    </footer>
+
+</body>
+
+</html>

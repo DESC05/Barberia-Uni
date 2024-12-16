@@ -1,0 +1,53 @@
+.titulo-principal{
+    padding-left: 30px;
+    
+}
+
+
+#banner{
+    width: 100%;
+    
+}
+.principal{
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+em strong{
+    color: cornflowerblue;
+}
+
+#mision{
+    font-size: 20px;
+}
+.diferenciales{
+    background-color: aliceblue;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+
+#diferenciales{
+    width: 50%;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    margin-right: 15%;
+}
